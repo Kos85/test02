@@ -14,9 +14,15 @@ public class MainActivity extends AppCompatActivity {
         Log.i("==>", "Hello World");
 
         process();
+
     }
 
     private void process() {
-        System.out.println("next");
+        System.out.println(getText());
     }
+
+    private String getText() {
+        return "NEXT";
+    }
+
 }
