@@ -12,5 +12,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.i("==>", "Hello World");
+
+        process();
+    }
+
+    private void process() {
+        System.out.println("next");
     }
 }
