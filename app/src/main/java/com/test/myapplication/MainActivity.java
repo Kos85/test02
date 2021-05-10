@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         process();
 
-        Log.i("==>", "Hello World");
+        Log.i("=>", "Hello World");
 
     }
 
